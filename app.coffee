@@ -6,7 +6,7 @@ express = require('express')
 sys = require('sys')
 app = module.exports = express.createServer()
 TwitterStream = require('evented-twitter').TwitterStream
-sentiment = require('viralheat-sentiment')('[viralheat key]');
+sentiment = require('viralheat-sentiment')('o2GrcH5p3vfyBainvC0E');
 fs = require('fs')
 
 creds = JSON.parse(fs.readFileSync('./credentials.json'))
