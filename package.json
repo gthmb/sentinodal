@@ -4,6 +4,8 @@
   , "private": true
   , "dependencies": {
       "express": "2.4.3"
+      "evented-twitter": "0.2.0"
+      "viralheat-sentiment": "0.0.2"
     , "jade": ">= 0.0.1"
   }
 }
