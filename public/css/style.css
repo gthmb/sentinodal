@@ -1,0 +1,13 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.positive { color: green; }
+.negative { color: red; }
+.tweet a.name { color: black; }
+.tweet a.name:hover { color: gray; }

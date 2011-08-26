@@ -1,2 +1,11 @@
 h1= title
-p Welcome to #{title}
+p Welcome to #{title}, a sentiment analyzer.
+
+form(method="post", action="/q/")
+	input(id="q", name="q")
+
+div(id="results")
+
+script(src="//ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.js")
+script(src="/js/jquery.stream-1.2.min.js")
+script(src="/js/script.js")
